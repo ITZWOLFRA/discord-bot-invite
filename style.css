@@ -2,7 +2,8 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #000000, #ff0000);
+  background: url('https://images.app.goo.gl/D5jwp3bt8tNZL41HA') no-repeat center center fixed;
+  background-size: cover;
   color: #ffffff;
   display: flex;
   flex-direction: column;

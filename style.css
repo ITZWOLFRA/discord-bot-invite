@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, #000000, #ff0000);
   color: #ffffff;
   display: flex;
@@ -27,28 +27,43 @@ header {
 .logo {
   font-size: 22px;
   font-weight: bold;
-  color: #ffffff;
+  color: #ff0000;
+  text-align: center;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ff0000;
 }
 
 /* Container Styles */
 .container {
-  margin-top: 100px;
+  margin-top: 120px;
   text-align: center;
-  max-width: 500px;
+  max-width: 600px;
   padding: 30px;
-  background-color: rgba(44, 47, 51, 0.9);
+  background-color: rgba(44, 47, 51, 0.85);
   border-radius: 15px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
 }
 
 h1 {
   margin: 0 0 10px;
-  font-size: 32px;
+  font-size: 36px;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ff0000;
 }
 
-p {
-  margin: 0 0 20px;
+.description {
   font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.about-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.about-list li {
+  font-size: 16px;
+  margin: 5px 0;
 }
 
 /* Invite Button Styles */

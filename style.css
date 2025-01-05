@@ -2,8 +2,7 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: url('https://images.app.goo.gl/D5jwp3bt8tNZL41HA') no-repeat center center fixed;
-  background-size: cover;
+  background: #ff0000; /* Solid red background */
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -28,9 +27,9 @@ header {
 .logo {
   font-size: 22px;
   font-weight: bold;
-  color: #ff0000;
+  color: #ffffff;
   text-align: center;
-  text-shadow: 0 0 5px #ffffff, 0 0 10px #ff0000;
+  text-shadow: 0 0 5px #000000, 0 0 10px #ffffff;
 }
 
 /* Container Styles */
@@ -47,7 +46,7 @@ header {
 h1 {
   margin: 0 0 10px;
   font-size: 36px;
-  text-shadow: 0 0 5px #ffffff, 0 0 10px #ff0000;
+  text-shadow: 0 0 5px #000000, 0 0 10px #ffffff;
 }
 
 .description {
